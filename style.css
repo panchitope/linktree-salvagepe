@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
+  
 }
 
 /* Contenedor principal */
@@ -78,3 +79,24 @@ p {
   object-fit: contain;
 }
 
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+body {
+  user-select: none;     /* Desactiva la selección de texto */
+  -webkit-user-select: none; /* Para navegadores WebKit */
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+img {
+  pointer-events: none; /* Evita clic derecho sobre imágenes */
+}
