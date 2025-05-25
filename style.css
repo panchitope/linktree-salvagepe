@@ -100,3 +100,8 @@ body {
 img {
   pointer-events: none; /* Evita clic derecho sobre imágenes */
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
